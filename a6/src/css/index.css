@@ -1,0 +1,74 @@
+header {
+  padding: 1rem 0;
+}
+
+.artists-box {
+  display: flex;
+}
+
+.new-artist-btn {
+  background-color: #d0cfcf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  margin-left: 8px;
+  margin-bottom: 6px;
+  margin-right: 6px;
+}
+
+.new-artist-btn:hover {
+  cursor: pointer;
+  background-color: #9b9b9b;
+  transform: rotate(180deg);
+  transition: 0.15s;
+}
+
+.new-artist-btn:active {
+  transform: translateY(2px);
+  transform: rotate(180deg);
+}
+
+.new-artist-btn:focus {
+  border: 1px #0096bfab solid;
+  box-shadow: 0 0 0 2px #0096bfab;
+}
+
+.join-newsletter {
+  margin-top: 1rem;
+  padding: 2rem 6rem;
+  min-height: 300px;
+}
+
+.join-newsletter h2 {
+  font-size: 2.5rem;
+}
+
+.join-newsletter-form div {
+  width: 100%;
+  height: 60px;
+  display: flex;
+}
+
+.join-newsletter-form div input[type="email"] {
+  width: 60%;
+  background-color: white;
+  border-radius: 0;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  border: 2px solid black;
+}
+
+.join-newsletter-form div input[type="submit"] {
+  width: 20%;
+  background-color: black;
+  color: white;
+  border-radius: 0;
+  font-size: 1.5rem;
+}
+
+.join-newsletter-form span {
+  font-size: 0.8rem;
+}
