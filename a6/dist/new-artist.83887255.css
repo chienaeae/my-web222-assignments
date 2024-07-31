@@ -1,0 +1,82 @@
+header {
+  padding: 1rem 0;
+}
+
+header p {
+  margin: 0;
+}
+
+.second-header p {
+  margin: 0 0 0 1rem;
+  font-weight: 600;
+}
+
+.second-header a {
+  color: #363636;
+  align-items: center;
+  font-size: 1.2rem;
+  text-decoration: none;
+  display: flex;
+}
+
+.second-header a:hover {
+  transition: all .3s;
+  transform: translateX(-10px);
+}
+
+form {
+  margin: 1rem 0;
+}
+
+input, textarea {
+  cursor: pointer;
+  background: none;
+  border: 1px solid #efefef;
+}
+
+input:hover, textarea:hover {
+  border: 1px solid #0096bfab;
+}
+
+.form-row {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.form-row > input[type="checkbox"] {
+  width: 20px;
+}
+
+.form-row input, .form-child-row input {
+  width: 100%;
+}
+
+.form-buttons {
+  margin-top: 2rem;
+  display: flex;
+}
+
+.cancel-btn, .submit-btn {
+  width: 300px;
+  height: 60px;
+}
+
+.cancel-btn, button {
+  color: #000;
+  border: 1px solid #efefef;
+  background-color: #fff !important;
+}
+
+.submit-btn {
+  color: #fff;
+  background-color: #0076d1 !important;
+}
+
+.cancel-btn:hover, button:hover, .submit-btn:hover {
+  color: #fff;
+  transition: .4;
+  border: 1px solid #efefef;
+  background-color: #363636 !important;
+}
+
+/*# sourceMappingURL=new-artist.83887255.css.map */

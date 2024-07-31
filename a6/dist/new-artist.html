@@ -1,0 +1,95 @@
+<!-- WEB222 – Assignment 06
+
+ I declare that this assignment is my own work in accordance with
+ Seneca Academic Policy. No part of this assignment has been
+ copied manually or electronically from any other source
+ (including web sites) or distributed to other students.
+
+ Please update the following with your information:
+
+      Name:       Chia-Yu Chien
+      Student ID: 157049222
+      Date:       2024/06/14 -->
+
+<!doctype html>
+<html lang="en-CA">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=500, initial-scale=1">
+
+    <!-- Change this to your name-->
+    <meta name="author" content="Chia-Yu Chien">
+
+    <title>WEB222 Music App</title>
+    <!-- Classless CSS Stylesheet - https://watercss.kognise.dev/ -->
+    <link rel="stylesheet" href="/index.bfa1d38c.css">
+    <link rel="stylesheet" href="/new-artist.83887255.css">
+  </head>
+  <body>
+    <header>
+      <div class="second-header">
+        <a href="/index.html">
+          <img width="25" src="https://img.icons8.com/ios-filled/50/left.png" alt="left-cursor">
+          <p>Back</p>
+        </a>
+      </div>
+      <h1>New Artist</h1>
+      <p>Feel the Beat Within</p>
+    </header>
+
+    <hr>
+
+    <form method="POST" action="https://httpbin.org/post">
+      <div class="form-row">
+        <label for="name">Artist's name</label>
+        <input name="name" type="text" required="" placeholder="ex: Taylor Swift">
+      </div>
+
+      <div class="form-row">
+        <label for="genre">Music Genre</label>
+        <input name="genre" list="genres" required="" placeholder="ex: Pop">
+        <datalist id="genres">
+          <option value="Pop"></option>
+          <option value="Rock"></option>
+          <option value="Hip-Hop"></option>
+          <option value="Jazz"></option>
+          <option value="Classical"></option>
+          <option value="Country"></option>
+          <option value="Electronic"></option>
+          <option value="Reggae"></option>
+          <option value="Blues"></option>
+          <option value="Folk"></option>
+        </datalist>
+      </div>
+
+      <div class="form-row">
+        <label for="socialMediaUrls">Social Media URLs</label>
+        <input id="social-media-urls" name="socialMediaUrls" type="url" multiple="" placeholder="Enter multiple URLs separated by spaces, commas, or new lines">
+      </div>
+
+      <div class="form-row">
+        <label for="songUrls">Songs and Videos URLs</label>
+        <div id="songUrlContainer" class="form-child-row">
+          <input type="url" name="songUrls" required="" placeholder="ex: https://music.youtube.com/">
+        </div>
+        <button id="add-song" type="button">Add More</button>
+      </div>
+
+      <div class="form-row same-line">
+        <label for="explicit">Explicit</label>
+        <input type="checkbox" id="explicit" name="explicit">
+      </div>
+
+      <div class="form-row">
+        <label for="description">Description</label>
+        <textarea id="description" name="description" rows="5"></textarea>
+      </div>
+
+      <div class="form-buttons">
+        <input id="cancel-btn" class="cancel-btn" type="button" value="Cancel">
+        <input id="submit-btn" class="submit-btn" type="submit" value="Submit">
+      </div>
+    </form>
+  <script src="/new-artist.e4446fb9.js"></script></body>
+  <script src="/new-artist.9dea9a91.js"></script>
+</html>

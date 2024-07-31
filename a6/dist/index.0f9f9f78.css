@@ -1,0 +1,64 @@
+#songs {
+  flex-flow: wrap;
+  width: 100%;
+  display: flex;
+}
+
+.card {
+  box-sizing: border-box;
+  align-items: left;
+  border-radius: 1px;
+  flex-direction: column;
+  width: 19rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  padding: 1rem;
+  display: flex;
+}
+
+.card:hover {
+  cursor: pointer;
+  background: #fff;
+  transition: all .25s;
+  transform: rotate(7deg)scale(1.22);
+  box-shadow: -9px 6px 22px 9px #000000a8;
+}
+
+.card img {
+  width: 100%;
+  height: 15rem;
+  margin: 0 auto;
+}
+
+.card h3 {
+  color: #363636;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+  margin-top: 4px;
+  margin-bottom: 1px;
+  font-size: 1.5rem;
+  overflow: hidden;
+}
+
+.card .content {
+  padding: 3px;
+}
+
+.card .meta {
+  align-items: space-between;
+  display: flex;
+}
+
+time {
+  background: none;
+}
+
+.card span {
+  color: #363636;
+  background: none;
+  margin-left: auto;
+}
+
+/*# sourceMappingURL=index.0f9f9f78.css.map */
